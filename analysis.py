@@ -1,8 +1,8 @@
-from helpers.loading import load_data
+from helpers.loading import load_reshaped_data
 import numpy as np
 
 
-df = load_data()
+df = load_reshaped_data()
 
 print("rows, cols:", df.shape)
 print("first columns:", df.columns.tolist()[:25])
