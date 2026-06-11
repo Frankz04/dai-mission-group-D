@@ -1,4 +1,6 @@
 from helpers.loading import load_data
+import numpy as np
+
 
 df = load_data()
 

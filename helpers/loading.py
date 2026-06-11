@@ -1,6 +1,6 @@
 # Data loading & first inspection (proposal stage)
 # Clone https://github.com/JeffSackmann/tennis_atp and place atp_matches_*.csv in ./data/
-import pandas as pd, numpy as np, glob
+import pandas as pd
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
