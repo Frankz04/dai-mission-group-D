@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-from loading import RESHAPED_DATA_PATH, load_original_data
+from helpers.loading import RESHAPED_DATA_PATH, load_original_data
 
 DEFAULT_OUTPUT = RESHAPED_DATA_PATH
 
